@@ -1,0 +1,224 @@
+{
+  "asset": {
+    "generator": "Microsoft GLTF Exporter 2.8.3.2",
+    "version": "2.0"
+  },
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5123,
+      "count": 20364,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 4474,
+      "type": "VEC3",
+      "max": [
+        11.824739456176758,
+        6.004873275756836,
+        0.9429725408554077
+      ],
+      "min": [
+        -12.29041576385498,
+        0.0070209503173828125,
+        -0.9219152331352234
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 4474,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 4474,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 4474,
+      "type": "VEC2"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 40728,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 40728,
+      "byteLength": 53688,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 94416,
+      "byteLength": 53688,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 148104,
+      "byteLength": 71584,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 219688,
+      "byteLength": 35792,
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "Christmaslights_data.bin",
+      "byteLength": 255480
+    }
+  ],
+  "images": [
+    {
+      "uri": "Christmaslights_img0.png"
+    },
+    {
+      "uri": "Christmaslights_img1.png"
+    },
+    {
+      "uri": "Christmaslights_img2.png"
+    },
+    {
+      "uri": "Christmaslights_img3.png"
+    },
+    {
+      "uri": "Christmaslights_img4.png"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {},
+      "normalTexture": {
+        "index": 2
+      },
+      "occlusionTexture": {
+        "index": 4
+      },
+      "emissiveTexture": {
+        "index": 3
+      },
+      "emissiveFactor": [
+        1,
+        1,
+        1
+      ],
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseTexture": {
+            "index": 0
+          },
+          "specularGlossinessTexture": {
+            "index": 1
+          }
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "TANGENT": 3,
+            "NORMAL": 2,
+            "POSITION": 1,
+            "TEXCOORD_0": 4
+          },
+          "indices": 0,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "name": "RootNode.0"
+    },
+    {
+      "mesh": 0,
+      "name": "Christmas_lights.1"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9985
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9985
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9985
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9985
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9985
+    }
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 1,
+      "source": 1
+    },
+    {
+      "sampler": 2,
+      "source": 2
+    },
+    {
+      "sampler": 3,
+      "source": 3
+    },
+    {
+      "sampler": 4,
+      "source": 4
+    }
+  ],
+  "scene": 0,
+  "extensionsUsed": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
+  "extensionsRequired": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ]
+}
