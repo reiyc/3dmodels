@@ -1,0 +1,339 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 58894,
+      "max": [
+        0.59460002183914185,
+        0.5120999813079834,
+        0.44670000672340393
+      ],
+      "min": [
+        -0.59429997205734253,
+        -0.51130002737045288,
+        -0.44620001316070557
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 706728,
+      "componentType": 5126,
+      "count": 58894,
+      "max": [
+        0.99994921684265137,
+        0.99999034404754639,
+        0.99998736381530762
+      ],
+      "min": [
+        -0.99996817111968994,
+        -0.99995553493499756,
+        -0.99979811906814575
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 58894,
+      "max": [
+        0.99999719858169556,
+        0.9999505877494812,
+        0.99750822782516479,
+        1
+      ],
+      "min": [
+        -0.99999386072158813,
+        -0.99999624490737915,
+        -0.99967211484909058,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 58894,
+      "max": [
+        0.99809998273849487,
+        0.99819999933242798
+      ],
+      "min": [
+        0.0019000000320374966,
+        0.0017999999690800905
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 155805,
+      "max": [
+        58893
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1413456,
+      "componentType": 5126,
+      "count": 1647,
+      "max": [
+        0.58300000429153442,
+        0.50950002670288086,
+        0.43340000510215759
+      ],
+      "min": [
+        -0.58960002660751343,
+        -0.50819998979568481,
+        -0.44679999351501465
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1433220,
+      "componentType": 5126,
+      "count": 1647,
+      "max": [
+        0.99936187267303467,
+        0.99977678060531616,
+        0.99955242872238159
+      ],
+      "min": [
+        -0.99905133247375488,
+        -0.99831598997116089,
+        -0.99595296382904053
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 942304,
+      "componentType": 5126,
+      "count": 1647,
+      "max": [
+        0.99904394149780273,
+        0.99882674217224121,
+        0.98919868469238281,
+        1
+      ],
+      "min": [
+        -0.99983716011047363,
+        -0.99951660633087158,
+        -0.99832230806350708,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 471152,
+      "componentType": 5126,
+      "count": 1647,
+      "max": [
+        0.99330002069473267,
+        0.99809998273849487
+      ],
+      "min": [
+        0.0043000001460313797,
+        0.00279999990016222
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 623220,
+      "componentType": 5125,
+      "count": 2343,
+      "max": [
+        1646
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Asgarde (https://sketchfab.com/Asgarde)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/models/cb7cb8681daf4e22b78239bab142b01c",
+      "title": "LuVille Santa's Shop"
+    },
+    "generator": "Sketchfab-4.1.6",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 632592,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 484328,
+      "byteOffset": 632592,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1452984,
+      "byteOffset": 1116920,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 968656,
+      "byteOffset": 2569904,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 3538560,
+      "uri": "scene.bin"
+    }
+  ],
+  "extensionsRequired": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
+  "extensionsUsed": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
+  "images": [
+    {
+      "uri": "textures/TextureAtlas_0_diffuse.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "diffuseTexture": {
+            "index": 0,
+            "texCoord": 0
+          },
+          "glossinessFactor": 0.40000000000000002,
+          "specularFactor": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "name": "TextureAtlas_0"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TANGENT": 7,
+            "TEXCOORD_0": 8
+          },
+          "indices": 9,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3,
+        4
+      ],
+      "name": "MaisonLowPoly.obj.cleaner.materialmerger.gles"
+    },
+    {
+      "mesh": 0,
+      "name": ""
+    },
+    {
+      "mesh": 1,
+      "name": ""
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    }
+  ]
+}
+
