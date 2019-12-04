@@ -1,0 +1,224 @@
+{
+  "asset": {
+    "generator": "Microsoft GLTF Exporter 2.8.3.2",
+    "version": "2.0"
+  },
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5123,
+      "count": 65550,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 12470,
+      "type": "VEC3",
+      "max": [
+        4.0833210945129395,
+        42.401214599609375,
+        5.961111068725586
+      ],
+      "min": [
+        -5.025544166564941,
+        -0.07332637161016464,
+        -6.28481388092041
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 12470,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 12470,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 12470,
+      "type": "VEC2"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 131100,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 131100,
+      "byteLength": 149640,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 280740,
+      "byteLength": 149640,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 430380,
+      "byteLength": 199520,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 629900,
+      "byteLength": 99760,
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "CarollerinLongCoat_data.bin",
+      "byteLength": 729660
+    }
+  ],
+  "images": [
+    {
+      "uri": "CarollerinLongCoat_img0.png"
+    },
+    {
+      "uri": "CarollerinLongCoat_img1.png"
+    },
+    {
+      "uri": "CarollerinLongCoat_img2.png"
+    },
+    {
+      "uri": "CarollerinLongCoat_img3.png"
+    },
+    {
+      "uri": "CarollerinLongCoat_img4.png"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {},
+      "normalTexture": {
+        "index": 2
+      },
+      "occlusionTexture": {
+        "index": 4
+      },
+      "emissiveTexture": {
+        "index": 3
+      },
+      "emissiveFactor": [
+        1,
+        1,
+        1
+      ],
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseTexture": {
+            "index": 0
+          },
+          "specularGlossinessTexture": {
+            "index": 1
+          }
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "TANGENT": 3,
+            "NORMAL": 2,
+            "POSITION": 1,
+            "TEXCOORD_0": 4
+          },
+          "indices": 0,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "name": "RootNode.0"
+    },
+    {
+      "mesh": 0,
+      "name": "caroler_in_long_coat.1"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9985
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9985
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9985
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9985
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9985
+    }
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 1,
+      "source": 1
+    },
+    {
+      "sampler": 2,
+      "source": 2
+    },
+    {
+      "sampler": 3,
+      "source": 3
+    },
+    {
+      "sampler": 4,
+      "source": 4
+    }
+  ],
+  "scene": 0,
+  "extensionsUsed": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
+  "extensionsRequired": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ]
+}
