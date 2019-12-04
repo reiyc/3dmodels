@@ -1,23 +1,165 @@
+
 <!-- AR.js by @jerome_etienne - github: https://github.com/jeromeetienne/ar.js - info: https://medium.com/arjs/augmented-reality-in-10-lines-of-html-4e193ea9fdbf -->
+
 <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
 <script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.6.0/aframe/build/aframe-ar.js"></script>
-<body style='margin : 0px; overflow: hidden;'>
-	<a-scene embedded arjs='sourceType: webcam;'>
+<script src="snow.js"></script>
+
+<body style='margin : 0px; overflow: hidden;' >
+	<a-scene embedded arjs='sourceType: webcam; debugUIEnabled: false;'>
 		<!-- <a-box position='0 0.5 0' material='opacity: 0.5;'></a-box> -->
         
         <a-assets>
             <a-asset-item id="tree" src="https://raw.githubusercontent.com/reiyc/3dmodels/master/Model1/model.gltf"></a-asset-item>
+
+            <a-asset-item id="present" src="https://raw.githubusercontent.com/reiyc/3dmodels/master/Presents/model.gltf"></a-asset-item>
+
+            <a-asset-item id="scene" src="https://raw.githubusercontent.com/reiyc/3dmodels/master/christmas_low-poly_scene/scene.gltf"></a-asset-item>
+
+            <a-asset-item id="caroler1" 
+                src="https://raw.githubusercontent.com/reiyc/3dmodels/master/MSModels/caroler/CarolerinYellowJacket.gltf">
+            </a-asset-item>
+
+            <a-asset-item id="caroler2" 
+                src="https://raw.githubusercontent.com/reiyc/3dmodels/master/MSModels/caroler2/CarollerinGreenJacket.gltf">
+            </a-asset-item>
+            
+             <a-asset-item id="caroler3" 
+                src="https://raw.githubusercontent.com/reiyc/3dmodels/master/MSModels/caroler4/CarollerinLongCoat.gltf">
+            </a-asset-item>
+            
+            <a-asset-item id="caroler4" 
+                src="https://raw.githubusercontent.com/reiyc/3dmodels/master/MSModels/caroler3/CarollerwithBraids.gltf">
+            </a-asset-item>
+            
+            <a-asset-item id="wreath" 
+                src="https://raw.githubusercontent.com/reiyc/3dmodels/master/MSModels/wreath/FestiveWreath.gltf">
+            </a-asset-item>
+            
+            <a-asset-item id="redornament" 
+                src="https://raw.githubusercontent.com/reiyc/3dmodels/master/MSModels/redornament/RedOrnamentBlank.gltf">
+            </a-asset-item>
+            
+            <a-asset-item id="lights" 
+                src="https://raw.githubusercontent.com/reiyc/3dmodels/master/MSModels/lights/Christmaslights.gltf">
+            </a-asset-item>
+            
+            <a-asset-item id="hat" 
+                src="https://raw.githubusercontent.com/reiyc/3dmodels/master/MSModels/hat/Hat.gltf">
+            </a-asset-item>
+            
+            <a-asset-item id="beard" 
+                src="https://raw.githubusercontent.com/reiyc/3dmodels/master/MSModels/beard/Beard.gltf">
+            </a-asset-item>
+            
+            <a-asset-item id="snowman" 
+                src="https://raw.githubusercontent.com/reiyc/3dmodels/master/MSModels/snowman/SnowmanOrnament.gltf">
+            </a-asset-item>
+        
+            <a-asset-item id="ornate" 
+                src="https://raw.githubusercontent.com/reiyc/3dmodels/master/MSModels/ornate/OrnateOrnament.gltf">
+            </a-asset-item>
+        
+           <a-asset-item id="sled" 
+                src="https://raw.githubusercontent.com/reiyc/3dmodels/master/MSModels/sled_study/scene.gltf">
+            </a-asset-item>
+        
+            <a-asset-item id="deer" 
+                src="https://raw.githubusercontent.com/reiyc/3dmodels/master/MSModels/reindeer_study/scene.gltf">
+            </a-asset-item>
+            
+            <a-asset-item id="shop" 
+                src="https://raw.githubusercontent.com/reiyc/3dmodels/master/MSModels/christmasnativityscenerawscan/scene.gltf">
+            </a-asset-item>
           </a-assets>
-        <!-- <a-marker-camera preset='hiro'></a-marker-camera>
-          <a-entity gltf-model="#tree" position=".5 -1 -.75"></a-entity>
-        </a-marker-camera> -->
+       
+        <!--WORKING-->
+        <a-marker type='pattern' url='https://raw.githubusercontent.com/reiyc/3dmodels/master/patterns/pattern-i.patt'>
+                  <a-entity gltf-model="#caroler1" position=".5 -1 -.75" scale= "50 50 50"></a-entity>
+        </a-marker>
+        
+        <a-marker type='pattern' url='https://raw.githubusercontent.com/reiyc/3dmodels/master/patterns/note1.patt'>
+                  <a-entity gltf-model="#caroler2" position=".5 -1 -.75" scale= "50 50 50"></a-entity>
+        </a-marker>
+        
+        <a-marker type='pattern' url='https://raw.githubusercontent.com/reiyc/3dmodels/master/patterns/pattern-note2.patt'>
+                  <a-entity gltf-model="#caroler3" position=".5 -1 -.75" scale= "10 10 10"></a-entity>
+        </a-marker>
+        
+        <!--update pattern-->
+        
+        <a-marker type='pattern' url='https://raw.githubusercontent.com/reiyc/3dmodels/master/patterns/pattern-h.patt'>
+                  <a-entity gltf-model="#tree" position="1 -1 -.75" scale= "2 2 2"></a-entity>
+        </a-marker>
+        
+         <a-marker type='pattern' url='https://raw.githubusercontent.com/reiyc/3dmodels/master/patterns/pattern-reindeer.patt'>
+                  <a-entity gltf-model="#wreath" position=".5 -1 0" scale= "12 12 12" rotation="270 270 90"></a-entity>
+        </a-marker>
 
-        <a-marker-camera preset='kanji'></a-marker-camera>
-          <a-entity gltf-model="#tree" position=".5 -1 -.75"></a-entity>
-        </a-marker-camera>
+        <a-marker type='pattern' url='https://raw.githubusercontent.com/reiyc/3dmodels/master/patterns/pattern-r.patt'>
+                  <a-entity gltf-model="#redornament" position="0 0 0" scale= "30 30 30" rotation="90 -90 90"></a-entity>
+        </a-marker>
+
+        <a-marker type='pattern' url='https://raw.githubusercontent.com/reiyc/3dmodels/master/patterns/pattern-l.patt'>
+                  <a-entity gltf-model="#lights" position="0 0 0" scale= "60 60 60" rotation="90 -90 90"></a-entity>
+        </a-marker>
+      
+        <!--right hand next to head-->
+        <a-marker type='pattern' url='https://raw.githubusercontent.com/reiyc/3dmodels/master/patterns/pattern-e.patt'>
+                  <a-entity gltf-model="#hat" position="3 0 -1" scale= "20 20 20" rotation="100 -90 90"></a-entity>
+        </a-marker>
+
+        <!--below the chin-->
+        <a-marker type='pattern' url='https://raw.githubusercontent.com/reiyc/3dmodels/master/patterns/pattern-k.patt'>
+          <a-entity gltf-model="#beard" position="0 0 -.75" scale= "150 150 150" rotation="90 -90 90"></a-entity>
+        </a-marker>
 
 
+        <a-marker type='pattern' url='https://raw.githubusercontent.com/reiyc/3dmodels/master/patterns/pattern-s.patt'>
+                  <a-entity gltf-model="#snowman" position="0 0 0" scale= "30 30 30" rotation="-90 -90 90"></a-entity>
+        </a-marker>
+
+        <a-marker type='pattern' url='https://raw.githubusercontent.com/reiyc/3dmodels/master/patterns/pattern-g.patt'>
+                  <a-entity gltf-model="#ornate" position="0 0 0" scale= "30 30 30" rotation="-90 -90 90"></a-entity>
+        </a-marker>
+        
+        
+        <a-marker type='pattern' url='https://raw.githubusercontent.com/reiyc/3dmodels/master/patterns/pattern-c.patt'>
+                  <a-entity gltf-model="#sled" position="0 0 0" scale= ".03 .03 .03"></a-entity>
+        </a-marker>
+        
+        <a-marker type='pattern' url='https://raw.githubusercontent.com/reiyc/3dmodels/master/patterns/pattern-j.patt'>
+                  <a-entity gltf-model="#deer" position="0 0 0" scale= ".03 .03 .03"></a-entity>
+        </a-marker>
+        
+        <a-marker type='pattern' url='https://raw.githubusercontent.com/reiyc/3dmodels/master/patterns/pattern-f.patt'>
+                  <a-entity gltf-model="#shop" position="0 2 0" scale= "2 2 2"></a-entity>
+        </a-marker>
+
+        <a-marker type='pattern' url='https://raw.githubusercontent.com/reiyc/3dmodels/master/patterns/pattern-d.patt'>
+          <a-entity gltf-model="#present" position="0 .5 2"></a-entity>
+        </a-marker>
+
+        <!-- <a-marker preset='hiro'></a-marker-camera>
+          <a-entity gltf-model="#scene" position=".5 -1 -.75" scale=".5 .5 .5" ></a-entity>
+        </a-marker> -->
+
+        <!-- <a-marker preset='hiro'></a-marker-camera>
+          <a-entity gltf-model="#randomchristmas" 
+          scale=".5 .5 .5"
+          ></a-entity>
+        </a-marker> -->
+        
+       <!--<a-marker type='pattern' url='https://raw.githubusercontent.com/reiyc/3dmodels/master/patterns/pattern-k.patt'>-->
+       <!--           <a-entity gltf-model="#tree" position="1 -1 -.75" scale= "4 4 4"></a-entity>-->
+       <!-- </a-marker>-->
+        
+
+
+        
+
+        <!-- add a simple camera -->
+        <a-entity camera></a-entity>
 
 	</a-scene>
 </body>
-
