@@ -1,0 +1,461 @@
+{
+  "asset": {
+    "generator": "Microsoft GLTF Exporter 2.8.3.2",
+    "version": "2.0"
+  },
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5123,
+      "count": 1686,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 457,
+      "type": "VEC3",
+      "max": [
+        0.034533485770225525,
+        0.028005994856357574,
+        0.05281448736786842
+      ],
+      "min": [
+        -0.034533485770225525,
+        -0.028005994856357574,
+        -0.05281448736786842
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 457,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 457,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 457,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5123,
+      "count": 744,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 226,
+      "type": "VEC3",
+      "max": [
+        0.01940957084298134,
+        0.007718459703028202,
+        0.010401858016848564
+      ],
+      "min": [
+        -0.01940957084298134,
+        -0.007718459703028202,
+        -0.010401865467429161
+      ]
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5126,
+      "count": 226,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5126,
+      "count": 226,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 9,
+      "componentType": 5126,
+      "count": 226,
+      "type": "VEC2"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 3372,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 3372,
+      "byteLength": 5484,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 8856,
+      "byteLength": 5484,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 14340,
+      "byteLength": 7312,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 21652,
+      "byteLength": 3656,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 25308,
+      "byteLength": 1488,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 26796,
+      "byteLength": 2712,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 29508,
+      "byteLength": 2712,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 32220,
+      "byteLength": 3616,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 35836,
+      "byteLength": 1808,
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "Beard_data.bin",
+      "byteLength": 37644
+    }
+  ],
+  "images": [
+    {
+      "uri": "Beard_img0.png"
+    },
+    {
+      "uri": "Beard_img1.png"
+    },
+    {
+      "uri": "Beard_img2.png"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {},
+      "normalTexture": {
+        "index": 2
+      },
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseTexture": {
+            "index": 0
+          },
+          "specularGlossinessTexture": {
+            "index": 1
+          }
+        }
+      }
+    },
+    {
+      "pbrMetallicRoughness": {},
+      "normalTexture": {
+        "index": 5
+      },
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseTexture": {
+            "index": 3
+          },
+          "specularGlossinessTexture": {
+            "index": 4
+          }
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "NORMAL": 2,
+            "TANGENT": 3,
+            "TEXCOORD_0": 4
+          },
+          "indices": 0,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "TANGENT": 8,
+            "NORMAL": 7,
+            "POSITION": 6,
+            "TEXCOORD_0": 9
+          },
+          "indices": 5,
+          "material": 1
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1,
+        2,
+        9
+      ],
+      "name": "RootNode.0"
+    },
+    {
+      "translation": [
+        0.010039671324193478,
+        0.006268464960157871,
+        0.042190562933683395
+      ],
+      "rotation": [
+        -0.07436016201972961,
+        0.7866483330726624,
+        -0.057679664343595505,
+        0.6101869940757751
+      ],
+      "scale": [
+        0.010000000707805157,
+        0.009999999776482582,
+        0.010000001639127731
+      ],
+      "name": "Shop_Character_Beard3_pgp.1"
+    },
+    {
+      "children": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "name": "lights.2"
+    },
+    {
+      "translation": [
+        4.267380714416504,
+        0,
+        0
+      ],
+      "rotation": [
+        0.9959241151809692,
+        0.05876326560974121,
+        0.06643600761890411,
+        -0.016379723325371742
+      ],
+      "scale": [
+        0.9999999403953552,
+        1,
+        1
+      ],
+      "name": "ambient_L.3"
+    },
+    {
+      "name": "ambient_R.4"
+    },
+    {
+      "name": "ambient_Back.5"
+    },
+    {
+      "name": "ambient_Bottom.6"
+    },
+    {
+      "name": "ambient_Top.7"
+    },
+    {
+      "translation": [
+        0.20758236944675446,
+        182.10972595214844,
+        276.22174072265625
+      ],
+      "rotation": [
+        0.4369839131832123,
+        0,
+        0,
+        0.8994693160057068
+      ],
+      "name": "ambient_Back1.8"
+    },
+    {
+      "children": [
+        10
+      ],
+      "rotation": [
+        -0.7071067690849304,
+        0,
+        0,
+        0.7071067690849304
+      ],
+      "scale": [
+        0.19999995827674866,
+        -0.19999998807907104,
+        0.19999998807907104
+      ],
+      "name": "Anchor.9"
+    },
+    {
+      "children": [
+        11
+      ],
+      "rotation": [
+        2.6345214914888414e-24,
+        0,
+        0,
+        1
+      ],
+      "name": "CreationRoot.10"
+    },
+    {
+      "children": [
+        12,
+        13
+      ],
+      "rotation": [
+        2.6345214914888414e-24,
+        -6.927841343444416e-33,
+        3.670882042783319e-9,
+        1
+      ],
+      "name": "Compound.11"
+    },
+    {
+      "translation": [
+        -0.004347197711467743,
+        -0.0014880893286317587,
+        -0.01049741730093956
+      ],
+      "rotation": [
+        2.6345214914888414e-24,
+        -9.823719431153123e-33,
+        -1.9118831962219022e-16,
+        1
+      ],
+      "mesh": 0,
+      "name": "Standard.12"
+    },
+    {
+      "translation": [
+        -0.0043472107499837875,
+        -0.017338039353489876,
+        0.02313261479139328
+      ],
+      "rotation": [
+        2.6345214914888414e-24,
+        -9.823719431153123e-33,
+        -1.9118831962219022e-16,
+        1
+      ],
+      "mesh": 1,
+      "name": "Standard.13"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9985
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9985
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9985
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9985
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9985
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9985
+    }
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 1,
+      "source": 1
+    },
+    {
+      "sampler": 2,
+      "source": 2
+    },
+    {
+      "sampler": 3,
+      "source": 0
+    },
+    {
+      "sampler": 4,
+      "source": 1
+    },
+    {
+      "sampler": 5,
+      "source": 2
+    }
+  ],
+  "scene": 0,
+  "extensionsUsed": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
+  "extensionsRequired": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ]
+}
